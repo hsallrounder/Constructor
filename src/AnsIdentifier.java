@@ -10,6 +10,7 @@ class AnsIdentifier {
     static {
         System.out.println("This is an Static Block."); //Will be displayed before the constructor statement.
         // will be executed only once.
+        //n++
     }
     // If we use non-static variables inside the static variables then it will throw compile time error.
     public static void main(String[] args) {
